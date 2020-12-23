@@ -8,3 +8,7 @@ Table of Contents
 4. Lists
 5. Loops
 6. Dictionairies and Sets
+7. Input and Output
+8. Classes
+9. Importing
+10. Final project (combining all of the above branches)
