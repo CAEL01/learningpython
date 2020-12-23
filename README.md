@@ -1,2 +1,1 @@
-# learningpython
-In this specific project I learn to program in Python. Here I add code and projects that I'm working on via Pirple.com and other resources.
+Here is the beginning of a never-ending journey... Lets begin with learning to code variables! :)
