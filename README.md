@@ -1,1 +1,1 @@
-Learning Branch: Variables in Python.
+<b>Learning Branch: Variables</b>
