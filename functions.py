@@ -1,4 +1,4 @@
-# Student: Caroline Eliasson, eliasson.caroline@gmail.com
+# Student: Caroline Eliasson
 
 """
 Extra credit:
