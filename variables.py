@@ -1,9 +1,6 @@
 """ 
 Learning to code Variables in Python (via Pirple.com)
-"""
-
-"""
-Using attributes such as Variables, Strings, Integers, Floats (decimals). These attributes define every 
+Using attributes such as Variables, Strings, Integers (positive numbers), Floats (decimals). These attributes define every 
 value of what is to be printed on the computer screen: A text, a positive numeric value, and a decimal 
 value. Using an artist with song and album as basis for learning variables.
 """
