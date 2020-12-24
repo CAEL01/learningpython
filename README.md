@@ -3,7 +3,7 @@ In this specific project I learn to program in Python. Here I add branches that 
 <br><br>
 Table of Contents
 1. <a href="https://github.com/CAEL01/learningpython/blob/main/variables.py">Variables</a>
-2. <a href="https://github.com/CAEL01/learningpython/blob/Functions/README.md">Functions</a>
+2. <a href="https://github.com/CAEL01/learningpython/blob/main/functions.py">Functions</a>
 3. "If" statements
 4. Lists
 5. Loops

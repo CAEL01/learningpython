@@ -41,3 +41,7 @@ if 2019:
     print('Label: BigBeats Records')
 
 # This function generates a boolean value of True or False. A boolean can only take two values: True or False.
+
+"""
+Create a boolean (True or False) to verify if the album has more than one CD
+"""
