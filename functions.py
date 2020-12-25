@@ -25,10 +25,6 @@ def Song():
     print('Song: I Found You')
 Song()
 
-def CD():
-    print('Number of CDs in album:')
-CD()
-
 def Year():
     print('Release year: 2019')
 Year()
@@ -44,8 +40,13 @@ myYear("2020")
 if 2019:
     print('Label: BigBeats Records')
 
-# This function generates a boolean value of True or False. A boolean can only take two values: True or False.
+"""
+This function generates a boolean value of True or False. A boolean can only take two values: True or False. 
+I have created a boolean to print that the album has one CD if the value is true or that the album has more than 2 CDs if the value is false.
+"""
 
-"""
-Create a boolean (True or False) to verify if the album has more than one CD
-"""
+if True:
+    print('Album only contains 1 CD')
+
+if False:
+    print('More than 2 CDs in album')
