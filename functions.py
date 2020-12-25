@@ -25,6 +25,10 @@ def Song():
     print('Song: I Found You')
 Song()
 
+def CD():
+    print('Number of CDs in album:')
+CD()
+
 def Year():
     print('Release year: 2019')
 Year()
@@ -34,9 +38,9 @@ def myYear(year):
 myYear("2020")
 
 
-# Booleans (for extra credit).
+# Booleans (for extra credit)
 
-# This has a String value. I am just experimenting here. :)
+# This has a String value stating that "if" the release year is 2019, write (visibly) "Label: Big Beats Records".
 if 2019:
     print('Label: BigBeats Records')
 
