@@ -28,7 +28,6 @@ myYear("2020")
 if 2019:
     print('Label: BigBeats Records')
 
-
 """
 This generates a 2 boolean values, one True and on False. I have created a boolean that simply verifies that 3*3+3=12 (True) and that there is no letter "z" in the name
 Andy Grammer (False).
