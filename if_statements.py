@@ -4,9 +4,7 @@
 #   Action: 
 
 click = False
-
 Like = 0
-
 click = True
 
 if click == True:
