@@ -5,30 +5,30 @@ more of the parameters are equal, and false is none of them are
 equal to any of the others.
 """
 
-# Part 1 of Homework: Function with three parameters using equality.
+# Part 1 of Homework: Function with three parameters using equality (==).
 
 def functionCheckEquality(para1, para2, para3):
 #Function with three parameters using equality. 
-  if para1==para2:                        # Print "True" if this parameter is met.
+  if para1==para2:                         # Print "True" if this parameter is met.
     print("True: p1 == p2")
     return True
-  if para1==para3:                        # Print "True" if this parameter is met.
+  if para1==para3:                         # Print "True" if this parameter is met.
     print("True: p1 == p3")
     return True
-  if para2==para3:                        # Print "True" if this parameter is met.
+  if para2==para3:                         # Print "True" if this parameter is met.
     print("True: p2 == p3")
     return True
   else:
-    print("False")                        # Print "False" if no parameter is equal to any of the other.
+    print("False")                         # Print "False" if no parameter is equal to any of the other.
     return False
   
-value1 = 0                                 # Input that I, myself, define the value of.
+value1 = 0                                 # Input that I, myself, define/write the value of.
 value2 = 0                                 # When one, or all, of the values are changed, the boolean changes.
 value3 = 0                                 # My function defines what parameters will be printed visibly.
                                            # If all values = 0, my function will print out the first parameter
                                            # that stops printing as soon as it has been read by the computer.
 
-functionCheckEquality(value1, value2, value3)   #Calling my function with all my if statements and booleans.
+functionCheckEquality(value1, value2, value3)   #Calling my function with all if statements including booleans.
 
 """
 Extra credit:
