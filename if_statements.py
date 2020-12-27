@@ -10,20 +10,20 @@ equal to any of the others.
 def functionCheckEquality(para1, para2, para3):
 #Function with three parameters using equality. 
   if para1==para2:                         # Print "True" if this parameter is met.
-    print("True: p1 == p2")
+    print("True: value1 = value2")
     return True
   if para1==para3:                         # Print "True" if this parameter is met.
-    print("True: p1 == p3")
+    print("True: value1 = value3")
     return True
   if para2==para3:                         # Print "True" if this parameter is met.
-    print("True: p2 == p3")
+    print("True: value2 = value3")
     return True
   else:
     print("False")                         # Print "False" if no parameter is equal to any of the other.
     return False
   
-value1 = 0                                 # Input that I, myself, define/write the value of.
-value2 = 0                                 # When one, or all, of the values are changed, the boolean changes.
+value1 = 1                                 # Input that I, myself, define/write the value of.
+value2 = 1                                 # When one, or all, of the values are changed, the boolean changes.
 value3 = 0                                 # My function defines what parameters will be printed visibly.
                                            # If all values = 0, my function will print out the first parameter
                                            # that stops printing as soon as it has been read by the computer.
@@ -38,6 +38,7 @@ function: 6,5,"5" you should modify it so that it returns true instead
 of false. Hint: there's a built in Python function called "int" that will 
 help you convert strings to Integers.
 """
+
 # Part 2 of Homework (Extra Credit): Convert all strings to integers.
 
 def functionCompareString(int1,int2,int3):
@@ -59,7 +60,7 @@ def functionCompareString(int1,int2,int3):
   return False
 
 value1 = "6"
-value2 = "7"
-value3 = "6"
+value2 = "5"
+value3 = "5"
 
 functionCompareString(value1,value2,value3)
