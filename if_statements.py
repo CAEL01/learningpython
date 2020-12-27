@@ -1,10 +1,14 @@
-#Function with three parameters using equality. 
+"""
+Create a function that accepts 3 parameters and checks for equality 
+between any two of them. Your function should return True if 2 or 
+more of the parameters are equal, and false is none of them are 
+equal to any of the others.
+"""
+
+# Part 1 of Homework: Function with three parameters using equality.
+
 def functionCheckEquality(para1, para2, para3):
-  """
-  para1=int(input("enter any number"))    # Input from external user that I don't define myself. 
-  para2=int(input("enter any number"))    # Does not need to be in the code. 
-  para3=int(input("enter any number"))    # Variables already defined by myself.
-  """
+#Function with three parameters using equality. 
   if para1==para2:                        # Print "True" if this parameter is met.
     print("True: p1 == p2")
     return True
@@ -18,10 +22,44 @@ def functionCheckEquality(para1, para2, para3):
     print("False")                        # Print "False" if no parameter is equal to any of the other.
     return False
   
-value1 = 0                                 # Input that I define the value of.
+value1 = 0                                 # Input that I, myself, define the value of.
 value2 = 0                                 # When one, or all, of the values are changed, the boolean changes.
 value3 = 0                                 # My function defines what parameters will be printed visibly.
                                            # If all values = 0, my function will print out the first parameter
                                            # that stops printing as soon as it has been read by the computer.
 
 functionCheckEquality(value1, value2, value3)   #Calling my function with all my if statements and booleans.
+
+"""
+Extra credit:
+Modify your function so that strings can be compared to integers if they 
+are equivalent. For example, if the following values are passed to your 
+function: 6,5,"5" you should modify it so that it returns true instead 
+of false. Hint: there's a built in Python function called "int" that will 
+help you convert strings to Integers.
+"""
+# Part 2 of Homework (Extra Credit): Convert all strings to integers.
+
+def functionCompareString(int1,int2,int3):
+  int1 = int(int1)
+  int2 = int(int2)
+  int3 = int(int3)
+
+  if int1 == int2:
+    print("True")
+    return True
+  if int2 == int3:
+    print("True")
+    return True
+  if int3 == int1:
+    print("True")
+    return True
+
+  print("False")
+  return False
+
+value1 = "6"
+value2 = "7"
+value3 = "6"
+
+functionCompareString(value1,value2,value3)
