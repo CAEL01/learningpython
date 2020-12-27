@@ -38,19 +38,18 @@ function: 6,5,"5" you should modify it so that it returns true instead
 of false. Hint: there's a built in Python function called "int" that will 
 help you convert strings to Integers.
 """
+# Part 2 of Homework (Extra Credit): Compare all strings to integers and if they're equivalent.
 
-# Part 2 of Homework (Extra Credit): Convert all strings to integers.
-
-def functionCompareString(int1,int2,int3):
-  int1 = int(int1)
+def functionCompareString(int1,int2,int3): # Name your function by what it's supposed to do.
+  int1 = int(int1)                         # The command "int" changes strings to integers.
   int2 = int(int2)
   int3 = int(int3)
 
   if int1 == int2:
     print("True")
     return True
-  if int2 == int3:
-    print("True")
+  if int2 == int3:                  # int2 == int3 --> same as value2 = value3 --> Generats "True"
+    print("True: value2 = value3")  # Printing "True" is enough though...
     return True
   if int3 == int1:
     print("True")
