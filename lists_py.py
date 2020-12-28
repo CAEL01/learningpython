@@ -20,7 +20,7 @@ it's rejected (for non-uniqueness), it should get added to myLeftovers instead.
 myUniqueList=[]                         # Global variable: Empty list.
 myLeftOvers=[]                          # Global variable: Empty list for rejected inputs.
 
-def AddToList(newthing):                # Global function: Adds things to list.
+def AddToList(newthing):                # Global function: Adds things to list. (Ask yourself: What is the function going to do? Name it therafter).
     if newthing in myUniqueList:        # If something that already exists in myUniqueList is introduced, print False.
         myLeftOvers.append(newthing)
         return False
