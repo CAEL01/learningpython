@@ -5,7 +5,7 @@ Table of Contents
 1. <a href="https://github.com/CAEL01/learningpython/blob/main/variables.py">Variables</a>
 2. <a href="https://github.com/CAEL01/learningpython/blob/main/functions.py">Functions</a>
 3. <a href="https://github.com/CAEL01/learningpython/blob/main/if_statements.py">"If" statements</a>
-4. Lists
+4. <a href="https://github.com/CAEL01/learningpython/blob/main/lists_py.py">Lists</a>
 5. Loops
 6. Dictionairies and Sets
 7. Input and Output
