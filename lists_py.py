@@ -32,3 +32,4 @@ print(AddToList("1"))                   # Add 1 to list.
 print(AddToList("2"))
 print(AddToList("1"))                   # Add 1 again, returns false since value already exists.
 print(myUniqueList)                     # Prints everything in my global variable.
+print(myLeftOvers)                      # Prints rejected values that are non-unique.
